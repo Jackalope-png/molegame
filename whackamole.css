@@ -1,0 +1,68 @@
+.molehole {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("https://w7.pngwing.com/pngs/989/329/png-transparent-a-big-hole-the-ground-thumbnail.png");
+  background-position: center;
+  background-size: cover;
+  height: 12vh;
+  width: 20%;
+}
+.flexcolumn{
+    display: flex;
+     flex-direction: column;
+}
+.borderborder{
+  display: flex;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 40%;
+  height: 50%;
+  margin:0;
+  margin-left: 30%;
+  background-image: url("soil.png");
+  margin-top: 5%;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+.center2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#gameArea {
+  display: grid;
+  grid-template-columns: repeat(3, 32.9%);
+  grid-template-rows: repeat(3, 32.9%);
+  gap: 5px;
+}
+#gameArea img {
+  height: 190px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+}
+.mole{
+  width: auto;
+  height: 150px;
+  background-image: url("monty-mole.png");
+  background-size: cover;
+  background-position: center;
+  display: none; 
+}
+.plants{
+  width: auto;
+  height: 180px;
+  background-image: url("piranha-plant.png");
+  background-size: cover;
+  background-position: center;
+  display: none;
+}
+#score{
+  color: red;
+  font-weight: bold;
+}
